@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo 'Cloning repository...'
-                git branch: 'main', url:''
+                git branch: 'main', url:'https://github.com/chouhanpratham/Jenkins-Pipeline-Setup-Flask-App.git'
             }
         }
 
